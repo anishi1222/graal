@@ -1,0 +1,9 @@
+# Configuration for codespell (https://github.com/codespell-project/codespell),
+# used by the "Codespell" workflow in .github/workflows/codespell.yml.
+[codespell]
+# Words that codespell must not report. The list is a baseline of the
+# vocabulary that is already present in this repository: domain specific terms,
+# identifiers, abbreviations, proper names and misspellings that cannot be
+# corrected without breaking existing APIs, generated code or third party
+# sources. Newly introduced misspellings that are not on the list are reported.
+ignore-words = .codespell-ignore-words.txt
