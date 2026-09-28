@@ -200,7 +200,6 @@ everytime
 eveywhere
 exaclty
 exactely
-exatly
 excpected
 excpetion
 excplicit
@@ -214,7 +213,6 @@ exeuction
 exisiting
 existance
 exluding
-exlusions
 exmaple
 expections
 explcit
@@ -234,7 +232,6 @@ fillin
 finshed
 firts
 fo
-foreing
 forin
 formating
 forword
@@ -246,7 +243,6 @@ fucntion
 fullfil
 fullfill
 fullfills
-funcion
 funktionality
 gloabl
 goup
@@ -337,7 +333,6 @@ lamdas
 langauge
 languange
 lazyness
-lenght
 libarary
 libary
 libray
@@ -368,7 +363,6 @@ mulit
 nce
 nd
 neccessary
-necesary
 negativ
 nin
 noone
@@ -408,7 +402,6 @@ overlows
 overrideable
 overriden
 owener
-pacakge
 padd
 parallism
 parantheses
@@ -523,10 +516,8 @@ som
 somethig
 sotred
 soure
-sparate
 specfies
 specfiy
-specifing
 splitted
 ssee
 standarized

@@ -855,7 +855,7 @@ This tells us that a deopt cycle was detected and the stacktrace points to the i
 
 The sensitivity of the deoptimization cycle detection can be fine-tuned by the options `compiler.DeoptCycleDetectionThreshold` and `compiler.DeoptCycleDetectionAllowedRepeats`.
 
-After the number of successful compilations of a call target reaches `compiler.DeoptCycleDetectionThreshold`, the subsequent Truffle compilations of the call target execute an extra deoptimization cycle detection phase that adds information to the compilation framework which allows it to later detect that the exactly same compiled code was deoptimized at the exatly same location repeatedly. If that happens the compilation fails with a permanent bailout. If `compiler.DeoptCycleDetectionAllowedRepeats` is set to a higher value than the default `0`, the compilation will only fail after the same deopt is repeated more times than the allowed count.
+After the number of successful compilations of a call target reaches `compiler.DeoptCycleDetectionThreshold`, the subsequent Truffle compilations of the call target execute an extra deoptimization cycle detection phase that adds information to the compilation framework which allows it to later detect that the exactly same compiled code was deoptimized at the exactly same location repeatedly. If that happens the compilation fails with a permanent bailout. If `compiler.DeoptCycleDetectionAllowedRepeats` is set to a higher value than the default `0`, the compilation will only fail after the same deopt is repeated more times than the allowed count.
 
 See [Deoptimization Cycle Patterns](./DeoptCyclePatterns.md) to learn about common patterns that cause deoptimization cycles and thus should be avoided.
 

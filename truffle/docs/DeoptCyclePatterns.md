@@ -258,7 +258,7 @@ class DispatchNode extends RootNode {
 
     @Override
     public Object execute(VirtualFrame frame) {
-        MyFunction funcion = (MyFunction) frame.getArguments()[0];
+        MyFunction function = (MyFunction) frame.getArguments()[0];
         CallTarget target = function.target;
         return callNode.call(target);
     }

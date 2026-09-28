@@ -11,7 +11,7 @@
 
 IGV is an MX project and for convenience should be built and tested as such.  It's also a NetBeans
 26 project based on Maven so it can be developed using any tool chain which supports Maven.
-Certains kind of edits, like editing the NetBeans module exlusions or editing the special UI
+Certains kind of edits, like editing the NetBeans module exclusions or editing the special UI
 components, will require using NetBeans.
 
 #### Building
